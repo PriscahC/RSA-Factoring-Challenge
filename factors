@@ -26,7 +26,7 @@ def factory(num):
 def factors(filename):
     """read_file and prints them out"""
 
-    with open(tests/test00, encoding="utf-8") as my_file:
+    with open(filename, encoding="utf-8") as my_file:
         for i in my_file.readlines():
             n = int(i)
             result = factory(n)
